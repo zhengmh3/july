@@ -16,6 +16,7 @@ import lombok.Data;
 @ApiModel(value="接口返回对象", description="接口返回对象")
 public class Result<T> implements Serializable {
 
+
 	private static final long serialVersionUID = 1L;
 
 	/**
